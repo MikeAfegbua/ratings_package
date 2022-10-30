@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:ratings_package/ratings_package.dart';
+//import 'package:ratings_package/ratings_package.dart';
 
 void main() {
   test('adds one to input values', () {
