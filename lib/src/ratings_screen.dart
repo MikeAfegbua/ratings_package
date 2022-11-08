@@ -8,8 +8,16 @@ class RatingsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
-        children: const [
-          Text('Hello'),
+        children: [
+          Container(
+            decoration: const BoxDecoration(
+              color: Colors.black,
+            ),
+            child: const Text(
+              'Hello',
+              style: TextStyle(backgroundColor: Colors.black),
+            ),
+          ),
         ],
       ),
     );
