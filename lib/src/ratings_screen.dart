@@ -10,6 +10,13 @@ class RatingsScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
+            padding: const EdgeInsets.all(5),
+            decoration: const BoxDecoration(
+              color: Colors.black,
+            ),
+            child: const Icon(Icons.person, color: Colors.green, size: 20),
+          ),
+          Container(
             decoration: const BoxDecoration(
               color: Colors.black,
             ),
