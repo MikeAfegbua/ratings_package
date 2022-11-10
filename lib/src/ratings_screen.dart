@@ -7,25 +7,28 @@ class RatingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
-        children: [
-          Container(
-            padding: const EdgeInsets.all(5),
-            decoration: const BoxDecoration(
-              color: Colors.black,
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 100),
+        child: Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(5),
+              decoration: const BoxDecoration(
+                color: Colors.black,
+              ),
+              child: const Icon(Icons.person, color: Colors.green, size: 20),
             ),
-            child: const Icon(Icons.person, color: Colors.green, size: 20),
-          ),
-          Container(
-            decoration: const BoxDecoration(
-              color: Colors.black,
+            Container(
+              decoration: const BoxDecoration(
+                color: Colors.black,
+              ),
+              child: const Text(
+                'Hello',
+                style: TextStyle(backgroundColor: Colors.black),
+              ),
             ),
-            child: const Text(
-              'Hello',
-              style: TextStyle(backgroundColor: Colors.black),
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
