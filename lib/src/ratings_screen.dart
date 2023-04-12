@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class RatingsScreen extends StatelessWidget {
   const RatingsScreen({Key? key}) : super(key: key);
@@ -11,12 +12,12 @@ class RatingsScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 100),
         child: Column(
           children: [
-            const Align(
+            Align(
               alignment: Alignment.topRight,
               child: Text(
                 'Skip',
                 style: TextStyle(
-                  fontSize: 14,
+                  fontSize: 14.sp,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 1.25,
                   color: Colors.black,
